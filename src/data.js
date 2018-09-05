@@ -100,7 +100,7 @@ let technologies = [
     {
         name: 'Adobe Photoshop',
         technologyImage: './images/ps.jpg'
-    }
+    },
     {
         name: 'Adobe Illustrator',
         technologyImage: './images/ai.jpg'
