@@ -1,12 +1,12 @@
-let myProfile = {
+export const myProfile = {
     name: 'Náhóczki Gábor',
-    profilImageURL: './images/profile.jpg',
+    profileImageURL: '../image/profile.jpg',
     email: 'cv@nahodesign.hu',
     location: 'Szolnok',
-    tags: ['#FrontEndWebDevelopment', '#React.js', '#WebDesign', '#JavaScript', '#SiteBuild']
+    tags: ['#FrontEndWebDevelopment ', '#React.js ', '#WebDesign ', '#JavaScript ', '#SiteBuild ']
 };
 
-let schools = [
+export const schools = [
     {
         schoolName: 'Udacity',
         courseDuration: '2017-2018',
@@ -38,7 +38,7 @@ let schools = [
         teachers: 'Dr. Martos János, Dr. Lombay Béla, Dr. Fornet Béla, Prof. Dr. Harkányi Zoltán'
     }];
 
-    let projects = [
+    export const projects = [
         {
             projectName:'Chill', 
             projectImage: './images/chill.jpg',
@@ -64,7 +64,7 @@ let schools = [
             problemsToSolve: 'Egy letisztult, átlátható és könnyen kezelhető reszponzív weboldal létrehozása volt a cél. Fontos szempont volt, hogy a könnyű kezelhetőség ne csak a felhasználók, de a megrendelő számára is elérhető legyen amennyiben az oldalon bármiféle módosítást szeretne végezni. A könnyen kezelhető backend miatt esett a választásunk a WordPress-re. Az oldalon található kereső a legfontosabb banki fogalmak között keres, míg a kapcsolat űrlapon az érdeklődő pontosan képes megadni azt, hogy mivel kapcsolatban érdeklődne. Ez nem csak az érdeklődőknek, de a cégnek is megkönnyíti a mindennapjait.'
         }];
 
-let technologies = [
+export const technologies = [
     {
         name:'HTML 5',
         technologyImage: './images/html.jpg'
