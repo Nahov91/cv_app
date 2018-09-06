@@ -1,5 +1,10 @@
+body {
+  background: #fdfdfd;
+}
+
 .App {
   text-align: center;
+  
 }
 
 /********** HEADER ***********/
@@ -9,4 +14,88 @@
   display: grid;
   grid-template-columns: auto 1fr;
   box-shadow: 6px 6px 18px rgba(0,0,0, 0.18);
+}
+
+/******* CARD *******/
+#card {
+  min-width: 330px;
+  max-width: 400px;
+  min-height: 155px;
+  max-height: 170px;
+  display: grid;
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px rgba(0,0,0, 0.18);
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 1fr auto;
+  grid-template-areas: 
+  "profileIMG"
+  "mail"
+  "location"
+  "tags";
+  margin: 100px auto auto auto;
+  background: white;
+}
+
+#profileIMG {
+  grid-area: profileIMG;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin: auto;
+  margin-top: -70px;
+  width: 100px;
+  height: 100px;
+}
+
+#mail{
+  display: grid;
+  grid-area: mail;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 
+  "mailIcon mailData";
+  padding: 0 50px;
+  align-items: center;
+  justify-items: start;
+  gap: 0.5rem;
+}
+
+#mailIcon {
+  grid-area: mailIcon;
+}
+
+#mail-data {
+  grid-area: mailData;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+#location{
+  display: grid;
+  grid-area: location;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 
+  "locationIcon locationData";
+  padding: 0 50px;
+  align-items: center;
+  justify-items: start;
+  gap: 0.5rem;
+}
+
+#locationIcon {
+  grid-area: locationIcon;
+}
+
+#locationData {
+  grid-area: locationData;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+#tags p {
+  font-weight: 100;
+  font-size: 0.8rem;
+  padding: 0 50px;
 }
