@@ -9,14 +9,13 @@ export default class Profile extends Component {
     return (
       <div>
         <div id="card">
-          {/* <img src= {`${Data.myProfile.profileImageURL}`} alt="profilkép"/> */}
           <img src={profileIMG} alt="profilkép" />
           <div id="mail">
-            <img src={mailicon} alt="" />
+            <img src={mailicon} alt="email" />
             <p id="mail-data">{Data.myProfile.email}</p>
           </div>
           <div id="location">
-            <img src={locationicon} alt="" />
+            <img src={locationicon} alt="location pin" />
             <p>{Data.myProfile.location}</p>
           </div>
           <div id="tags">
