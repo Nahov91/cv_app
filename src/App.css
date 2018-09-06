@@ -6,21 +6,30 @@ body {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: 
-  "header"
-  "backdrop"
-  "schoolComponent";
+  grid-template-areas:
+    "header"
+    "backdrop"
+    "schoolComponent";
 }
 
 /********** HEADER ***********/
 #header {
   grid-area: header;
+  top: 0px;
+  position: fixed;
   width: 100%;
   height: 45px;
   display: grid;
   grid-template-columns: auto 1fr;
-  box-shadow: 6px 6px 18px rgba(0,0,0, 0.18);
-  background: #001122;
+  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.18);
+  background: #001122fb;
+  z-index: 100;
+}
+
+#back {
+  background: none;
+  color: #0089ff;
+  border: none;
 }
 
 /******* CARD *******/
@@ -32,14 +41,14 @@ body {
   max-height: 170px;
   display: grid;
   border-radius: 8px;
-  box-shadow: 3px 3px 6px rgba(0,0,0, 0.18);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr 1fr auto;
-  grid-template-areas: 
-  "profileIMG"
-  "mail"
-  "location"
-  "tags";
+  grid-template-areas:
+    "profileIMG"
+    "mail"
+    "location"
+    "tags";
   margin: 100px auto auto auto;
   background: white;
   margin-top: -90px;
@@ -55,12 +64,11 @@ body {
   height: 100px;
 }
 
-#mail{
+#mail {
   display: grid;
   grid-area: mail;
   grid-template-columns: auto 1fr;
-  grid-template-areas: 
-  "mailIcon mailData";
+  grid-template-areas: "mailIcon mailData";
   padding: 0 50px;
   align-items: center;
   justify-items: start;
@@ -79,12 +87,11 @@ body {
   margin: 0;
 }
 
-#location{
+#location {
   display: grid;
   grid-area: location;
   grid-template-columns: auto 1fr;
-  grid-template-areas: 
-  "locationIcon locationData";
+  grid-template-areas: "locationIcon locationData";
   padding: 0 50px;
   align-items: center;
   justify-items: start;
@@ -123,13 +130,13 @@ body {
 .schoolItem {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-areas: 
-  "schoolImage courseName"
-  "schoolImage schoolName"
-  "schoolImage shortDescription";
+  grid-template-areas:
+    "schoolImage courseName"
+    "schoolImage schoolName"
+    "schoolImage shortDescription";
   text-align: left;
   padding: 0 15px 30px 30px;
-  border-left: 3px solid #D6D6D6;
+  border-left: 3px solid #d6d6d6;
   margin-left: 5%;
   margin-top: 5px;
 }
