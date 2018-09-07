@@ -1,3 +1,4 @@
+
 export const myProfile = {
     name: 'Náhóczki Gábor',
     profileImageURL: '../image/profile.jpg',
@@ -11,7 +12,7 @@ export const schools = [
         schoolName: 'Udacity',
         courseDuration: '2017-2018',
         courseName: 'Front-End Web Developer',
-        schoolImage: './images/udacity.jpg',
+        schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536311149/udacity.png',
         shortDescription: 'Web alapú bootcamp, melyen keresztül HTML, CSS és JavaScript tudásom nagy részét szereztem. Tanulmányaimat Google ösztöndíj fedezte.',
         technologies: 'HTML 5, JavScript, CSS 3, React.js, GitHub, CSS Grid, Fetch',
         problemsToSolve: 'A képzés során 8 projektet kellett elkészíteni, melyek egyre bonyolultabb problémákat vetettek fel. Legtöbbet vanilla JavaScript-tel fogalalkoztunk, de a megoldandó feladatok közt volt számtalan A11y (Accessibility)-vel kapcsolatos is. ',
@@ -21,7 +22,7 @@ export const schools = [
         schoolName: 'Web Design Suli',
         courseDuration: '2017',
         courseName: 'Web Designer',
-        schoolImage: './images/webdesignsuli.jpg',
+        schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536312954/webdesignsuli.png',
         shortDescription: 'Web alapú képzés, ahol a web design alapjait sajátítottam el. Logo tervezés, Adobe Photoshop, Adobe Illustrator.',
         technologies: 'Adobe Photoshop, Adobe Illustrator, CSS, WordPress',
         problemsToSolve: 'A képzés bevezető szakaszában tanultunk a színekről, betűtípusokról, melyeket a logotervezés követett. Mitől jó egy logo? Hogyan fogjunk neki a tervezésnek? Hogyan használjuk az Adobe Photoshopot és az Adobe Illustratort? Ezen témák elsajátítása után az oldalak felépítéséről a WordPressről és annak használatáról tanultunk. Zárásképp egy WordPress alapú weboldalt kellett beadnunk vizsgamunka gyanánt',
@@ -31,7 +32,7 @@ export const schools = [
         schoolName: 'Miskolci Egyetem Egészségügyi kar',
         courseDuration: '2010-2014',
         courseName: 'Orvosi Laboratóriumi és Képalkotó Diagnosztikai Analitikus',
-        schoolImage: './images/miskolciegyetem.jpg',
+        schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536313059/miskolciegyetem.png',
         shortDescription: 'A Miskolci Egyetem Egészségügyi karán a radiográfia részletit tanultam meg.',
         technologies: '',
         problemsToSolve: 'Felvételek készítése CT, MRI illetve RTG technológiákkal. Anatómiai és élettani tanulmányok',

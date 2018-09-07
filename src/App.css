@@ -21,7 +21,7 @@ body {
   height: 45px;
   display: grid;
   grid-template-columns: auto 1fr;
-  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.18);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.28);
   background: #001122fb;
   z-index: 100;
 }
@@ -143,6 +143,8 @@ body {
 
 .schoolName {
   grid-area: schoolName;
+  line-height: 1rem;
+  margin: 0;
 }
 
 .courseName {
@@ -150,4 +152,13 @@ body {
 }
 .shortDescription {
   grid-area: shortDescription;
+}
+
+.schoolImage {
+  grid-area: schoolImage;
+  width: 38px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
+  margin-left: -52px;
 }

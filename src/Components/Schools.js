@@ -8,6 +8,7 @@ export default class Schools extends Component {
         <h2 className="categoryHeading">Iskolák</h2>
         {Data.schools.map(school => (
           <li className="schoolItem" key={school.schoolName}>
+          <img className="schoolImage" src={school.schoolImage} alt=""/>
             <h3 className="courseName"> {school.courseName} </h3>
             <h5 className="schoolName">{school.schoolName}</h5>
             <p className="shortDescription"> {school.shortDescription} </p>

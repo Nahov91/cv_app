@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import maindrop from '../image/mainbackdrop.jpg';
 
 var backdropStyle = {
-  backgroundImage: 'url(' + maindrop + ')',
+  backgroundImage: 'url(http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536314457/mainbackdrop.jpg',
   width: "100%",
   height: "250px",
   backgroundSize: "cover"
