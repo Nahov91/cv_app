@@ -2,6 +2,10 @@ body {
   background: #fdfdfd;
 }
 
+li {
+  list-style-type: none;
+}
+
 .App {
   text-align: center;
   display: grid;
@@ -203,4 +207,55 @@ body {
     border: 2px solid #ffffff;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
     margin-left: -62px;
+}
+
+/******** TECHNOLOGIES *********/
+#technologyComponent {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: auto 1fr;
+  grid-area: technologyComponent;
+  margin-top: 3rem;
+  grid-template-areas: 
+  "technologyHeading"
+  "technologyList";
+}
+
+#technologyComponent .categoryHeading {
+  grid-area: technologyHeading;
+}
+
+.technologyList {
+  grid-area: technologyList;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "technologyItem technologyItem technologyItem"
+}
+
+li .technologyItem {
+  display: grid;
+  grid-area: technologyItem;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+  "technologyImage"
+  "technologyName"; 
+  list-style-type: none;
+}
+
+.technologyItem .name {
+  grid-area: technologyName;
+  line-height: 1rem;
+  margin: 0;
+}
+
+.technologyImage {
+  grid-area: technologyImage;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
+  margin: auto;
 }

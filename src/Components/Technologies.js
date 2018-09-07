@@ -6,7 +6,7 @@ export default class Technologies extends Component {
     return (
       <div id="technologyComponent">
         <h2 className="categoryHeading"> Ismert technológiák </h2>
-        <ul>
+        <ul className="technologyList" >
           {Data.technologies.map(technology => (
             <li className="technologyItem">
               <img
