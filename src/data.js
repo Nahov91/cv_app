@@ -68,41 +68,45 @@ export const schools = [
 export const technologies = [
     {
         name:'HTML 5',
-        technologyImage: './images/html.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/html5.png'
     }, 
     {
         name: 'CSS 3',
-        technologyImage: './images/css.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/CSS3.png'
     }, 
     {
         name: 'React.js',
-        technologyImage: './images/react.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/React.png'
     }, 
     {
         name: 'JavaScript',
-        technologyImage: './images/js.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332972/javascript.png'
     }, 
     {
         name: 'CSS Grid',
-        technologyImage: './images/cssgrid.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/cssgrid.png'
     }, 
     {
         name: 'GitHub',
-        technologyImage: './images/github.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/github.png'
     }, 
     {
         name: 'Fetching API',
-        technologyImage: './images/api.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/api.png'
     }, 
     {
         name: 'Adobe XD',
-        technologyImage: './images/xd.jpg'
+        technologyImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536333403/xd.png'
     }, 
     {
         name: 'Adobe Photoshop',
-        technologyImage: './images/ps.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332972/photoshop.png'
     },
     {
         name: 'Adobe Illustrator',
-        technologyImage: './images/ai.jpg'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/illustrator.png'
+    },
+    {
+        name: 'WordPress',
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536332971/wordpress.png'
     }];

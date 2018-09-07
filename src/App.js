@@ -6,6 +6,7 @@ import * as Data from "./data";
 import Backdrop from './Components/Backdrop'
 import Schools from "./Components/Schools";
 import Projects from "./Components/Projects";
+import Technologies from "./Components/Technologies";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Profile />
           <Schools />
           <Projects />
+          <Technologies/>
         </main>
       </div>
     );
