@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import * as Data from "./data";
-import Backdrop from './Components/Backdrop'
+import Backdrop from "./Components/Backdrop";
 import Schools from "./Components/Schools";
 import Projects from "./Components/Projects";
 import Technologies from "./Components/Technologies";
@@ -14,11 +14,11 @@ class App extends Component {
       <div className="App">
         <Header />
         <Backdrop />
-        <main>
-          <Profile />
+        <Profile />
+        <main id="content" >
           <Schools />
           <Projects />
-          <Technologies/>
+          <Technologies />
         </main>
       </div>
     );

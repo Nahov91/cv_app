@@ -6,14 +6,26 @@ li {
   list-style-type: none;
 }
 
+#content {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  overflow: auto;
+  resize: horizontal;
+max-width: 1500px;
+margin: auto;
+}
+
 .App {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas:
     "header"
     "backdrop"
-    "schoolComponent";
+    "profile"
+    "main";
 }
 
 /********** HEADER ***********/
@@ -127,7 +139,7 @@ li {
 
 /******* SCHOOLS ********/
 #schoolComponent {
-  grid-area: schoolComponent;
+/*   grid-area: schoolComponent; */
   margin-top: 3rem;
 }
 
@@ -169,7 +181,7 @@ li {
 
 /******* PROJECTS *******/
 #projectComponent {
-  grid-area: projectComponent;
+/*   grid-area: projectComponent; */
   margin-top: 3rem;
 }
 
@@ -177,9 +189,9 @@ li {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas:
-  "projectImage projectName"
-  "projectImage projectType"
-  "projectImage projectDescription";
+    "projectImage projectName"
+    "projectImage projectType"
+    "projectImage projectDescription";
   text-align: left;
   padding: 0 15px 30px 30px;
   margin-left: 5%;
@@ -201,24 +213,24 @@ li {
 }
 
 .projectImage {
-    grid-area: projectImage;
-    width: 50px;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
-    margin-left: -62px;
+  grid-area: projectImage;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
+  margin-left: -62px;
 }
 
 /******** TECHNOLOGIES *********/
 #technologyComponent {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
-  grid-area: technologyComponent;
+/*   grid-area: technologyComponent; */
   margin-top: 3rem;
-  grid-template-areas: 
-  "technologyHeading"
-  "technologyList";
+  grid-template-areas:
+    "technologyHeading"
+    "technologyList";
 }
 
 #technologyComponent .categoryHeading {
@@ -230,17 +242,17 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "technologyItem technologyItem technologyItem"
+  grid-template-areas: "technologyItem technologyItem technologyItem";
+  gap: 5px;
 }
 
 li .technologyItem {
   display: grid;
   grid-area: technologyItem;
   grid-template-rows: auto 1fr;
-  grid-template-areas: 
-  "technologyImage"
-  "technologyName"; 
+  grid-template-areas:
+    "technologyImage"
+    "technologyName";
   list-style-type: none;
 }
 
@@ -252,8 +264,8 @@ li .technologyItem {
 
 .technologyImage {
   grid-area: technologyImage;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border: 2px solid #fff;
   border-radius: 50%;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
