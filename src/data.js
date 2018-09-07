@@ -42,7 +42,7 @@ export const schools = [
     export const projects = [
         {
             projectName:'Chill', 
-            projectImage: './images/chill.jpg',
+            projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/chill.png',
             projectType: 'Progresszív webapp',
             projectDescription: 'A Chill egy progresszív webapp, ami a környéken található nyugalmat árasztó helyeket listázza ki és jeleníti meg egy térképen hasznos többletinformációval.',
             technologies: 'JavaScript, CSS3, CSS Grid, React.js, GitHub, Fetch, Google Maps API',
@@ -50,7 +50,7 @@ export const schools = [
         }, 
         {
             projectName:'Techno-Víz Laboratórium kft. Weblap', 
-            projectImage: './images/technoviz.jpg',
+            projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/technoviz.png',
             projectType: 'Weblap',
             projectDescription: 'A Techno-Víz Laboratórium kft. -nek szüksége volt egy modernebb weblapra, melyen könnyű eligazodni. A weblap korábban is WordPress alapú volt, így ezen nem változtattam.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
@@ -58,7 +58,7 @@ export const schools = [
         }, 
         {
             projectName:'Hitelguru Hungary kft.',
-            projectImage: './images/hitelguru.jpg', 
+            projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/hitelguru.png', 
             projectType: 'Weblap, logo, névjegykártya',
             projectDescription: 'Banki szolgáktatásokat közvetítő cég digitális elindulásának lehetővé tétele az induláshoz nélkülözheteten digitális termékek és eszközök létrehozásával.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
