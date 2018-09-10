@@ -7,20 +7,20 @@ import Backdrop from "./Components/Backdrop";
 import Schools from "./Components/Schools";
 import Projects from "./Components/Projects";
 import Technologies from "./Components/Technologies";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Main from "./Components/Main";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Backdrop />
-        <Profile />
-        <main id="content" >
-          <Schools />
-          <Projects />
-          <Technologies />
-        </main>
-      </div>
+      <Router>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Main} />
+          </Switch>
+          </div>
+      </Router>
     );
   }
 }
