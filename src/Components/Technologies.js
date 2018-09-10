@@ -8,7 +8,7 @@ export default class Technologies extends Component {
         <h2 className="categoryHeading"> Ismert technológiák </h2>
         <ul className="technologyList" >
           {Data.technologies.map(technology => (
-            <li className="technologyItem">
+            <li key={technology.name} className="technologyItem">
               <img
                 src={technology.technologyImage}
                 alt=""

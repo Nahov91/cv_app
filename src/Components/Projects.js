@@ -10,7 +10,7 @@ export default class Projects extends Component {
           {Data.projects.map(project => (
             <li className="projectItem" key={project.projectName}>
             <img src={project.projectImage} alt="" className="projectImage"/>
-              <h2 className="projectName">{project.projectName} </h2>
+              <h3 className="projectName">{project.projectName} </h3>
               <h5 className="projectType">{project.projectType} </h5>
               <p className="projectDescription">{project.projectDescription} </p>
             </li>

@@ -11,7 +11,7 @@ export default class Backdrop extends Component {
   render() {
     return (
       <div>
-        <div style={backdropStyle} ></div>
+        <div className="backdrop" style={backdropStyle} ></div>
       </div>
     )
   }
