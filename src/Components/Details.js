@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Backdrop from "./Backdrop";
 import * as Data from "../data";
+import Overdrive from "react-overdrive";
 
 export default class Details extends Component {
   constructor(props) {
@@ -26,14 +27,22 @@ export default class Details extends Component {
     return (
       <div id="details">
         <Backdrop />
-        <img
-          className="schoolDetailImage"
-          src={school.schoolImage}
-          alt={school.schoolName}
-        />
+        <Overdrive id={school.url} duration="200" easing="ease-in-out">
+          <img
+            className="schoolDetailImage"
+            src={school.schoolImage}
+            alt={school.schoolName}
+          />
+        </Overdrive>
         <div className="detailsWrapper">
           <div className="introductionWrapper">
-            <h1 className="courseDetailName"> {school.courseName} </h1>
+            <Overdrive
+              id={school.courseName}
+              duration="200"
+              easing="ease-in-out"
+            >
+              <h1 className="courseDetailName"> {school.courseName} </h1>
+            </Overdrive>
             <h5 className="schoolDetailName"> {school.schoolName} </h5>
             <h5 className="courseDetailDuration"> {school.courseDuration} </h5>
             <p className="shortDetailDescription">

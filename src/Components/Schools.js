@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import * as Data from "../data.js";
 import { Link } from "react-router-dom";
+import Overdrive from "react-overdrive";
 
 export default class Schools extends Component {
   render() {
@@ -11,11 +12,23 @@ export default class Schools extends Component {
           {Data.schools.map(school => (
             <li className="schoolItem" key={school.schoolName}>
               <Link to={`/${school.url}`}>
-                <img className="schoolImage" src={school.schoolImage} alt="" />
+                <Overdrive id={school.url} duration="200" easing="ease-in-out">
+                  <img
+                    className="schoolImage"
+                    src={school.schoolImage}
+                    alt=""
+                  />
+                </Overdrive>
               </Link>
-              <Link to={`/${school.url}`}>
-                <h3 className="courseName"> {school.courseName} </h3>
-              </Link>
+              <Overdrive
+                id={school.courseName}
+                duration="200"
+                easing="ease-in-out"
+              >
+                <Link to={`/${school.url}`}>
+                  <h3 className="courseName"> {school.courseName} </h3>
+                </Link>
+              </Overdrive>
               <h5 className="schoolName">{school.schoolName}</h5>
               <p className="shortDescription"> {school.shortDescription} </p>
             </li>
