@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import * as Data from "../data.js";
+import { Link } from "react-router-dom";
 
 export default class Schools extends Component {
   render() {
@@ -9,8 +10,12 @@ export default class Schools extends Component {
         <ul>
           {Data.schools.map(school => (
             <li className="schoolItem" key={school.schoolName}>
-              <img className="schoolImage" src={school.schoolImage} alt="" />
-              <h3 className="courseName"> {school.courseName} </h3>
+              <Link to={`/${school.url}`}>
+                <img className="schoolImage" src={school.schoolImage} alt="" />
+              </Link>
+              <Link to={`/${school.url}`}>
+                <h3 className="courseName"> {school.courseName} </h3>
+              </Link>
               <h5 className="schoolName">{school.schoolName}</h5>
               <p className="shortDescription"> {school.shortDescription} </p>
             </li>

@@ -9,6 +9,8 @@ export const myProfile = {
 
 export const schools = [
     {
+        id:1,
+        url:'udacity',
         schoolName: 'Udacity',
         courseDuration: '2017-2018',
         courseName: 'Front-End Web Developer',
@@ -19,6 +21,8 @@ export const schools = [
         teachers: 'Richard Kalehoff, Pete LePage, Peter Lubbers, Andrew Wong, Michel Wales, Julia Van Cleve, James Parkes, Cameron Pittman, Karl Krueger, Ryan Florance, Tyler McGinnis'
     },
     {
+        id:2,
+        url:'webdesignsuli',
         schoolName: 'Web Design Suli',
         courseDuration: '2017',
         courseName: 'Web Designer',
@@ -29,6 +33,8 @@ export const schools = [
         teachers: 'Cziráki Barbara, Henn Bianka'
     },
     {
+        id:3,
+        url:'miskolciegyetem',
         schoolName: 'Miskolci Egyetem Egészségügyi kar',
         courseDuration: '2010-2014',
         courseName: 'Orvosi Laboratóriumi és Képalkotó Diagnosztikai Analitikus',
