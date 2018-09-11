@@ -27,7 +27,7 @@ export default class Details extends Component {
     return (
       <div id="details">
         <Backdrop />
-        <Overdrive id={school.url} duration="200" easing="ease-in-out">
+        <Overdrive id={school.schoolImage} duration={200} easing='ease-in-out'>
           <img
             className="schoolDetailImage"
             src={school.schoolImage}
@@ -38,8 +38,8 @@ export default class Details extends Component {
           <div className="introductionWrapper">
             <Overdrive
               id={school.courseName}
-              duration="200"
-              easing="ease-in-out"
+              duration={200}
+              easing='ease-in-out'
             >
               <h1 className="courseDetailName"> {school.courseName} </h1>
             </Overdrive>
