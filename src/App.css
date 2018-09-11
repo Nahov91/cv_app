@@ -64,7 +64,8 @@ li {
     "header"
     "backdrop"
     "profile"
-    "main";
+    "main"
+    "details";
 }
 
 .categoryHeading {
@@ -351,3 +352,57 @@ li .technologyItem {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
   margin: auto;
 }
+
+/******* DETAILS ********/
+
+#details {
+  display: grid;
+  text-align: left;
+  grid-template-areas: 
+  "backdrop"
+  "schoolDetailImage"
+  "detailsWrapper";  
+}
+
+.detailsWrapper {
+  display: grid;
+  grid-area: detailsWrapper;
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  margin: 0 6%;
+  max-width: 1600px;
+  overflow: auto;
+  resize: horizontal;
+  max-width: 1600px;
+  grid-column-gap: 50px; 
+}
+
+.introductionWrapper {
+  display: grid;
+  grid-template-areas: 
+  "courseDetailName"
+  "schoolDetailName"
+  "courseDetailDuration";
+}
+
+.schoolDetailImage {
+  grid-area: schoolDetailImage;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-top: -55px;
+  margin-left: 6%;
+  align-self: start;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
+}
+
+.courseDetailName {
+  grid-area: courseDetailName;
+}
+
+.schoolDetailName {
+  grid-area: schoolDetailName;
+}
+
+.courseDetailDuration {
+  grid-area: courseDetailDuration;
+}
+
