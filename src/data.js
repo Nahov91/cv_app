@@ -18,7 +18,7 @@ export const schools = [
         shortDescription: 'Web alapú bootcamp, melyen keresztül HTML, CSS és JavaScript tudásom nagy részét szereztem. Tanulmányaimat Google ösztöndíj fedezte.',
         technologies: 'HTML 5, JavScript, CSS 3, React.js, GitHub, CSS Grid, Fetch',
         problemsToSolve: 'A képzés során 8 projektet kellett elkészíteni, melyek egyre bonyolultabb problémákat vetettek fel. Legtöbbet vanilla JavaScript-tel fogalalkoztunk, de a megoldandó feladatok közt volt számtalan A11y (Accessibility)-vel kapcsolatos is. ',
-        teachers: 'Richard Kalehoff, Pete LePage, Peter Lubbers, Andrew Wong, Michel Wales, Julia Van Cleve, James Parkes, Cameron Pittman, Karl Krueger, Ryan Florance, Tyler McGinnis'
+        teachers: 'Richard Kalehoff, Pete LePage, Peter Lubbers, Andrew Wong, Michael Wales, Julia Van Cleve, James Parkes, Cameron Pittman, Karl Krueger, Ryan Florance, Tyler McGinnis'
     },
     {
         id:2,

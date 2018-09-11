@@ -9,6 +9,10 @@ body {
   visibility: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -228,7 +232,13 @@ li {
 
 .courseName {
   grid-area: courseName;
+  text-decoration: none;
 }
+
+.courseName:visited {
+  text-decoration: none;
+}
+
 .shortDescription {
   grid-area: shortDescription;
 }
@@ -240,6 +250,12 @@ li {
   border: 2px solid #ffffff;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
   margin-left: -65px;
+  transition: all .2s ease-out;
+}
+
+.schoolImage:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.14);
 }
 
 /******* PROJECTS *******/

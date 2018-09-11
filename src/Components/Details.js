@@ -14,7 +14,6 @@ export default class Details extends Component {
   componentDidMount() {
     Data.schools.filter(school => {
       if (school.url === this.props.match.params.url) {
-        console.log(school.courseName);
         this.setState({
           school: school
         });
