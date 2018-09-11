@@ -5,6 +5,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.active {
+  visibility: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -77,11 +81,27 @@ li {
   z-index: 100;
 }
 
-#back {
+ .back {
+   display: inline-block;
   background: none;
-  color: #0089ff;
+  color: #2196f3;
   border: none;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  text-align: center;
+  padding: 5px;
 }
+
+.back span {
+  margin-bottom: 10px;
+}
+
+.back img {
+  height: 30px;
+  margin: 0 -2px -7px 0;
+
+}
+
 
 /******* CARD *******/
 #card {
