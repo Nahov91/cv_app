@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Main from "./Components/Main";
 import SchoolDetails from "./Components/SchoolDetails";
+import ProjectDetails from "./Components/ProjectDetails"
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/" component={Main} />
-            <Route path="/:url" component={SchoolDetails} />
+            <Route exact path="/school/:surl" component={SchoolDetails} />
+            <Route exact path="/project/:purl" component={ProjectDetails} />
           </Switch>
         </div>
       </Router>

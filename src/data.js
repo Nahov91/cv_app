@@ -47,6 +47,7 @@ export const schools = [
 
     export const projects = [
         {
+            url: 'chill',
             projectName:'Chill', 
             projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/chill.png',
             projectType: 'Progresszív webapp',
@@ -55,6 +56,7 @@ export const schools = [
             problemsToSolve: 'A projekt során teljesen nulláról kellett készíteni egy webappot, mely a térképet a Google Maps API-ból, az adatokat pedig egy másik API-ból nyeri ki. Az én választásom a FourSquare-re esett, lévén az alkalmazásaikat használva tudtam, hogy rengeteg adattal rendelkeznek. Kritérium volt továbbá egy logikus komponens struktúra felépítése, ahol a komponenseken keresztül áraló adatokat is menedzselni kell state illetve props segítségével. A state management során nem használtam Redux-ot vagy Context API-t.'
         }, 
         {
+            url: 'techno-viz-laboratorium',
             projectName:'Techno-Víz Laboratórium kft. Weblap', 
             projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/technoviz.png',
             projectType: 'Weblap',
@@ -63,6 +65,7 @@ export const schools = [
             problemsToSolve: 'A weblapnak egyszerűen kezelhetőnek, modernnek, átláthatónak, de ugyanakkor funkciógazdagnak kellett lennie'
         }, 
         {
+            url: 'hitelguru-hungary',
             projectName:'Hitelguru Hungary kft.',
             projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/hitelguru.png', 
             projectType: 'Weblap, logo, névjegykártya',

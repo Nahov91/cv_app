@@ -3,7 +3,7 @@ import Backdrop from "./Backdrop";
 import * as Data from "../data";
 import Overdrive from "react-overdrive";
 
-export default class Details extends Component {
+export default class SchoolDetails extends Component {
   constructor(props) {
     super(props);
 
@@ -14,7 +14,7 @@ export default class Details extends Component {
 
   componentWillMount() {
     Data.schools.filter(school => {
-      if (school.url === this.props.match.params.url) {
+      if (school.url === this.props.match.params.surl) {
         this.setState({
           school: school
         });

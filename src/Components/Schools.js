@@ -11,7 +11,7 @@ export default class Schools extends Component {
         <ul>
           {Data.schools.map(school => (
             <li className="schoolItem" key={school.schoolName}>
-              <Link to={`/${school.url}`}>
+              <Link to={`/school/${school.url}`}>
                 <Overdrive id={school.schoolImage} duration={200} easing='ease-in-out'>
                   <img
                     className="schoolImage"
@@ -25,7 +25,7 @@ export default class Schools extends Component {
                 duration={200}
                 easing='ease-in-out'
               >
-                <Link to={`/${school.url}`}>
+                <Link to={`/school/${school.url}`}>
                   <h3 className="courseName"> {school.courseName} </h3>
                 </Link>
               </Overdrive>
