@@ -27,7 +27,7 @@ export default class SchoolDetails extends Component {
     return (
       <div id="details">
         <Backdrop />
-        <Overdrive id={school.schoolImage} duration={200} easing='ease-in-out'>
+        <Overdrive id={school.schoolImage} duration={200} easing="ease-in-out">
           <img
             className="detailImage"
             src={school.schoolImage}
@@ -39,20 +39,22 @@ export default class SchoolDetails extends Component {
             <Overdrive
               id={school.courseName}
               duration={200}
-              easing='ease-in-out'
+              easing="ease-in-out"
             >
               <h1 className="detailName"> {school.courseName} </h1>
             </Overdrive>
             <h5 className="subDetailName"> {school.schoolName} </h5>
             <h5 className="subDetailDuration"> {school.courseDuration} </h5>
-            <p className="detailDescription">
-              {" "}
-              {school.shortDescription}{" "}
-            </p>
+            <p className="detailDescription"> {school.shortDescription} </p>
           </div>
-          <p className="problemsToSolve"> {school.problemsToSolve} </p>
+          <section className="problemsToSolve">
+            <h3 className="categoryHeading">A képzésről </h3>
+            <p> {school.problemsToSolve} </p>
+          </section>
           <div className="otherInfo">
+            <h3 className="categoryHeading">Elsajátított technológák</h3>
             <p className="detailTechnologies"> {school.technologies} </p>
+            <h3 className="categoryHeading">Tanáraim</h3>
             <p className="detailTeachers"> {school.teachers} </p>
           </div>
         </div>

@@ -47,12 +47,15 @@ export default class ProjectDetails extends Component {
             >
               <h1 className="detailName"> {project.projectName} </h1>
             </Overdrive>
-            <p className="detailDescription">
-              {project.projectDescription}
-            </p>
+            <h5 className="subDetailName">{project.projectType} </h5>
+            <p className="detailDescription">{project.projectDescription}</p>
           </div>
-          <p className="problemsToSolve"> {project.problemsToSolve} </p>
+          <section className="problemsToSolve">
+            <h3 className="categoryHeading">A projektről</h3>
+            <p className="problemsToSolve"> {project.problemsToSolve} </p>
+          </section>
           <div className="otherInfo">
+            <h3 className="categoryHeading">Használt technológák</h3>
             <p className="detailTechnologies"> {project.technologies} </p>
           </div>
         </div>
