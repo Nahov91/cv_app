@@ -33,7 +33,7 @@ export default class ProjectDetails extends Component {
           easing="ease-in-out"
         >
           <img
-            className="projectDetailImage"
+            className="detailImage"
             src={project.projectImage}
             alt={project.projectName}
           />
@@ -45,9 +45,9 @@ export default class ProjectDetails extends Component {
               duration={200}
               easing="ease-in-out"
             >
-              <h1 className="projectDetailName"> {project.projectName} </h1>
+              <h1 className="detailName"> {project.projectName} </h1>
             </Overdrive>
-            <p className="shortDetailDescription">
+            <p className="detailDescription">
               {project.projectDescription}
             </p>
           </div>

@@ -355,6 +355,7 @@ li .technologyItem {
 
 /******* DETAILS ********/
 
+/******* SchoolDetails **********/
 #details {
   display: grid;
   text-align: left;
@@ -379,12 +380,12 @@ li .technologyItem {
 .introductionWrapper {
   display: grid;
   grid-template-areas: 
-  "courseDetailName"
-  "schoolDetailName"
-  "courseDetailDuration";
+  "detailName"
+  "subDetailName"
+  "subDetailDuration";
 }
 
-.schoolDetailImage {
+.detailImage {
   grid-area: schoolDetailImage;
   border-radius: 50%;
   border: 2px solid #fff;
@@ -394,15 +395,16 @@ li .technologyItem {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
 }
 
-.courseDetailName {
-  grid-area: courseDetailName;
+.detailName {
+  grid-area: detailName;
 }
 
-.schoolDetailName {
-  grid-area: schoolDetailName;
+.subDetailName {
+  grid-area: subDetailName;
 }
 
-.courseDetailDuration {
-  grid-area: courseDetailDuration;
+.subDetailDuration {
+  grid-area: subDetailDuration;
 }
 
+/********** ProjectDetails **********/

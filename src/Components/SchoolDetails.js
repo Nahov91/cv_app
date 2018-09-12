@@ -29,7 +29,7 @@ export default class SchoolDetails extends Component {
         <Backdrop />
         <Overdrive id={school.schoolImage} duration={200} easing='ease-in-out'>
           <img
-            className="schoolDetailImage"
+            className="detailImage"
             src={school.schoolImage}
             alt={school.schoolName}
           />
@@ -41,11 +41,11 @@ export default class SchoolDetails extends Component {
               duration={200}
               easing='ease-in-out'
             >
-              <h1 className="courseDetailName"> {school.courseName} </h1>
+              <h1 className="detailName"> {school.courseName} </h1>
             </Overdrive>
-            <h5 className="schoolDetailName"> {school.schoolName} </h5>
-            <h5 className="courseDetailDuration"> {school.courseDuration} </h5>
-            <p className="shortDetailDescription">
+            <h5 className="subDetailName"> {school.schoolName} </h5>
+            <h5 className="subDetailDuration"> {school.courseDuration} </h5>
+            <p className="detailDescription">
               {" "}
               {school.shortDescription}{" "}
             </p>
