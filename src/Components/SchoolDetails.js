@@ -12,7 +12,7 @@ export default class Details extends Component {
     };
   }
 
-  componentDidMount() {
+  componentWillMount() {
     Data.schools.filter(school => {
       if (school.url === this.props.match.params.url) {
         this.setState({
