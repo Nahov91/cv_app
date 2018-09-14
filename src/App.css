@@ -383,6 +383,8 @@ li .technologyItem {
   "detailName"
   "subDetailName"
   "subDetailDuration";
+  align-items: start;
+  grid-template-rows: auto auto 1fr;
 }
 
 .detailImage {
@@ -407,4 +409,26 @@ li .technologyItem {
   grid-area: subDetailDuration;
 }
 
-/********** ProjectDetails **********/
+.problemsToSolve {
+  display: grid;
+}
+
+/********** GALLERY **********/
+.gallery {
+  display: grid;
+  width: 100%;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+.gallery img {
+  max-width: 98%;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+img.galleryImage:nth-child(1), img.galleryImage:nth-child(2), img.galleryImage:nth-child(5) {
+  grid-column: -1 / span 2;
+}

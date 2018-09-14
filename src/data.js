@@ -51,6 +51,10 @@ export const schools = [
             projectName:'Chill', 
             projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/chill.png',
             projectType: 'Progresszív webapp',
+            galleryImages: ['https://res.cloudinary.com/nahov91/image/upload/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-24-49.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-23-56.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-20-56.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-22-24.png'],
             projectDescription: 'A Chill egy progresszív webapp, ami a környéken található nyugalmat árasztó helyeket listázza ki és jeleníti meg egy térképen hasznos többletinformációval.',
             technologies: 'JavaScript, CSS3, CSS Grid, React.js, GitHub, Fetch, Google Maps API',
             problemsToSolve: 'A projekt során teljesen nulláról kellett készíteni egy webappot, mely a térképet a Google Maps API-ból, az adatokat pedig egy másik API-ból nyeri ki. Az én választásom a FourSquare-re esett, lévén az alkalmazásaikat használva tudtam, hogy rengeteg adattal rendelkeznek. Kritérium volt továbbá egy logikus komponens struktúra felépítése, ahol a komponenseken keresztül áraló adatokat is menedzselni kell state illetve props segítségével. A state management során nem használtam Redux-ot vagy Context API-t.'
@@ -60,6 +64,7 @@ export const schools = [
             projectName:'Techno-Víz Laboratórium kft. Weblap', 
             projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/technoviz.png',
             projectType: 'Weblap',
+            galleryImages: [],
             projectDescription: 'A Techno-Víz Laboratórium kft. -nek szüksége volt egy modernebb weblapra, melyen könnyű eligazodni. A weblap korábban is WordPress alapú volt, így ezen nem változtattam.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
             problemsToSolve: 'A weblapnak egyszerűen kezelhetőnek, modernnek, átláthatónak, de ugyanakkor funkciógazdagnak kellett lennie'
@@ -69,6 +74,13 @@ export const schools = [
             projectName:'Hitelguru Hungary kft.',
             projectImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536326419/hitelguru.png', 
             projectType: 'Weblap, logo, névjegykártya',
+            galleryImages: ['https://res.cloudinary.com/nahov91/image/upload/v1536841621/screenshot-hitelguru.com-2018.09.13-14-14-33.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-17-05.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-09-53.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-17-05.png',
+            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png'
+            ],
             projectDescription: 'Banki szolgáktatásokat közvetítő cég digitális elindulásának lehetővé tétele az induláshoz nélkülözheteten digitális termékek és eszközök létrehozásával.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
             problemsToSolve: 'Egy letisztult, átlátható és könnyen kezelhető reszponzív weboldal létrehozása volt a cél. Fontos szempont volt, hogy a könnyű kezelhetőség ne csak a felhasználók, de a megrendelő számára is elérhető legyen amennyiben az oldalon bármiféle módosítást szeretne végezni. A könnyen kezelhető backend miatt esett a választásunk a WordPress-re. Az oldalon található kereső a legfontosabb banki fogalmak között keres, míg a kapcsolat űrlapon az érdeklődő pontosan képes megadni azt, hogy mivel kapcsolatban érdeklődne. Ez nem csak az érdeklődőknek, de a cégnek is megkönnyíti a mindennapjait.'
