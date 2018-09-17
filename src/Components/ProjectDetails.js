@@ -49,6 +49,13 @@ export default class ProjectDetails extends Component {
             </Overdrive>
             <h5 className="subDetailName">{project.projectType} </h5>
             <p className="detailDescription">{project.projectDescription}</p>
+            <h3 className="categoryHeading">Linkek</h3>
+            <ul>
+            {project.links.map(link => (
+              <li>
+              <a href={link} className="projectlink">{link}</a></li>
+            ))}
+            </ul>
           </div>
           <section className="problemsToSolve">
             <h3 className="categoryHeading">A projektről</h3>

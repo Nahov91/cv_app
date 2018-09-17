@@ -57,7 +57,8 @@ export const schools = [
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-22-24.png'],
             projectDescription: 'A Chill egy progresszív webapp, ami a környéken található nyugalmat árasztó helyeket listázza ki és jeleníti meg egy térképen hasznos többletinformációval.',
             technologies: 'JavaScript, CSS3, CSS Grid, React.js, GitHub, Fetch, Google Maps API',
-            problemsToSolve: 'A projekt során teljesen nulláról kellett készíteni egy webappot, mely a térképet a Google Maps API-ból, az adatokat pedig egy másik API-ból nyeri ki. Az én választásom a FourSquare-re esett, lévén az alkalmazásaikat használva tudtam, hogy rengeteg adattal rendelkeznek. Kritérium volt továbbá egy logikus komponens struktúra felépítése, ahol a komponenseken keresztül áraló adatokat is menedzselni kell state illetve props segítségével. A state management során nem használtam Redux-ot vagy Context API-t.'
+            problemsToSolve: 'A projekt során teljesen nulláról kellett készíteni egy webappot, mely a térképet a Google Maps API-ból, az adatokat pedig egy másik API-ból nyeri ki. Az én választásom a FourSquare-re esett, lévén az alkalmazásaikat használva tudtam, hogy rengeteg adattal rendelkeznek. Kritérium volt továbbá egy logikus komponens struktúra felépítése, ahol a komponenseken keresztül áraló adatokat is menedzselni kell state illetve props segítségével. A state management során nem használtam Redux-ot vagy Context API-t.',
+            links: ['https://github.com/Nahov91/FEND-P8-Chill','https://nahov91.github.io/']
         }, 
         {
             url: 'techno-viz-laboratorium',
@@ -67,7 +68,8 @@ export const schools = [
             galleryImages: [],
             projectDescription: 'A Techno-Víz Laboratórium kft. -nek szüksége volt egy modernebb weblapra, melyen könnyű eligazodni. A weblap korábban is WordPress alapú volt, így ezen nem változtattam.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
-            problemsToSolve: 'A weblapnak egyszerűen kezelhetőnek, modernnek, átláthatónak, de ugyanakkor funkciógazdagnak kellett lennie'
+            problemsToSolve: 'A weblapnak egyszerűen kezelhetőnek, modernnek, átláthatónak, de ugyanakkor funkciógazdagnak kellett lennie',
+            links: []
         }, 
         {
             url: 'hitelguru-hungary',
@@ -82,7 +84,8 @@ export const schools = [
             ],
             projectDescription: 'Banki szolgáktatásokat közvetítő cég digitális elindulásának lehetővé tétele az induláshoz nélkülözheteten digitális termékek és eszközök létrehozásával.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
-            problemsToSolve: 'Egy letisztult, átlátható és könnyen kezelhető reszponzív weboldal létrehozása volt a cél. Fontos szempont volt, hogy a könnyű kezelhetőség ne csak a felhasználók, de a megrendelő számára is elérhető legyen amennyiben az oldalon bármiféle módosítást szeretne végezni. A könnyen kezelhető backend miatt esett a választásunk a WordPress-re. Az oldalon található kereső a legfontosabb banki fogalmak között keres, míg a kapcsolat űrlapon az érdeklődő pontosan képes megadni azt, hogy mivel kapcsolatban érdeklődne. Ez nem csak az érdeklődőknek, de a cégnek is megkönnyíti a mindennapjait.'
+            problemsToSolve: 'Egy letisztult, átlátható és könnyen kezelhető reszponzív weboldal létrehozása volt a cél. Fontos szempont volt, hogy a könnyű kezelhetőség ne csak a felhasználók, de a megrendelő számára is elérhető legyen amennyiben az oldalon bármiféle módosítást szeretne végezni. A könnyen kezelhető backend miatt esett a választásunk a WordPress-re. Az oldalon található kereső a legfontosabb banki fogalmak között keres, míg a kapcsolat űrlapon az érdeklődő pontosan képes megadni azt, hogy mivel kapcsolatban érdeklődne. Ez nem csak az érdeklődőknek, de a cégnek is megkönnyíti a mindennapjait.',
+            links: ['https://hitelguru.com/']
         }];
 
 export const technologies = [

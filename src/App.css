@@ -382,9 +382,14 @@ li .technologyItem {
   grid-template-areas: 
   "detailName"
   "subDetailName"
-  "subDetailDuration";
+  "subDetailDuration"
+  "projectlink";
   align-items: start;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+.projectlink {
+  grid-area: projectlink;
 }
 
 .detailImage {
