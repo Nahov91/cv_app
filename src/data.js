@@ -78,7 +78,6 @@ export const schools = [
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-17-05.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-09-53.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png',
-            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-17-05.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png'
             ],
             projectDescription: 'Banki szolgáktatásokat közvetítő cég digitális elindulásának lehetővé tétele az induláshoz nélkülözheteten digitális termékek és eszközök létrehozásával.',

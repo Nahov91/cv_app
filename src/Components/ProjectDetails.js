@@ -53,6 +53,7 @@ export default class ProjectDetails extends Component {
           <section className="problemsToSolve">
             <h3 className="categoryHeading">A projektről</h3>
             <p> {project.problemsToSolve} </p>
+            <h3 className="categoryHeading">Képek</h3>
             <div className="gallery">
               {project.galleryImages.map(galleryImage => (
                 <img

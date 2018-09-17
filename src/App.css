@@ -417,8 +417,7 @@ li .technologyItem {
 .gallery {
   display: grid;
   width: 100%;
-  /* grid-template-columns: 1fr 1fr; */
-  grid-template-rows: auto;
+/*   grid-template-columns: 1fr 1fr; */
   grid-gap: 10px;
 }
 
@@ -429,6 +428,7 @@ li .technologyItem {
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-img.galleryImage:nth-child(1), img.galleryImage:nth-child(2), img.galleryImage:nth-child(5) {
+img.galleryImage:nth-child(2), img.galleryImage:nth-child(1) {
   grid-column: -1 / span 2;
 }
+
