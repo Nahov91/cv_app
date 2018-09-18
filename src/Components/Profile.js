@@ -1,10 +1,27 @@
 import React, { Component } from "react";
 import * as Data from "../data.js";
+import Backdrop from "./Backdrop";
 
 export default class Profile extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      myProfile: {}
+    };
+  }
+
+
+  componentDidMount() {
+    this.setState( {
+     myProfile : Data.myProfile
+    })
+  }
+
   render() {
     return (
       <div>
+        <Backdrop background={this.state.myProfile}/>
         <div id="card">
           <img id="profileIMG" src="http://res.cloudinary.com/nahov91/image/upload/f_auto,fl_any_format,q_auto:best/v1536314979/profile.jpg" alt="profilkép" />
           <div id="mail">

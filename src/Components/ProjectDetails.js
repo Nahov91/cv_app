@@ -26,7 +26,7 @@ export default class ProjectDetails extends Component {
     const { project } = this.state;
     return (
       <div id="details">
-        <Backdrop />
+        <Backdrop background={this.state.project}/>
         <Overdrive
           id={project.projectImage}
           duration={200}

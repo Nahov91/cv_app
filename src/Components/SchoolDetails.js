@@ -26,7 +26,7 @@ export default class SchoolDetails extends Component {
     const { school } = this.state;
     return (
       <div id="details">
-        <Backdrop />
+        <Backdrop background={this.state.school}/>
         <Overdrive id={school.schoolImage} duration={200} easing="ease-in-out">
           <img
             className="detailImage"
