@@ -17,10 +17,10 @@ export const schools = [
         backdropBg: 'https://res.cloudinary.com/nahov91/image/upload/c_crop,e_blur:1724,f_auto,g_xy_center,h_500,q_auto:good,w_1659,x_0,y_371/v1537269904/udacitybg.jpg',
         courseName: 'Front-End Web Developer',
         schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536311149/udacity.png',
-        shortDescription: 'Web alapú bootcamp, melyen keresztül HTML, CSS és JavaScript tudásom nagy részét szereztem. Tanulmányaimat Google ösztöndíj fedezte.',
+        shortDescription: 'A Google és a Udacity közös Online Front-End Web Developer bootcamp-je mely gyakorlatban is használt példákra épül. A HTML -től egészen a React.js -ig nyújtott komplett tananyagot. A képzés első három hónapos kihívása után a Google-től kapott ösztöndíjjal végeztem el a teljes képzést megszerezve ezzel a Nanodegree -t.',
         technologies: 'HTML 5, JavScript, CSS 3, React.js, GitHub, CSS Grid, Fetch',
-        problemsToSolve: 'A képzés során 8 projektet kellett elkészíteni, melyek egyre bonyolultabb problémákat vetettek fel. Legtöbbet vanilla JavaScript-tel fogalalkoztunk, de a megoldandó feladatok közt volt számtalan A11y (Accessibility)-vel kapcsolatos is. ',
-        teachers: 'Richard Kalehoff, Pete LePage, Peter Lubbers, Andrew Wong, Michael Wales, Julia Van Cleve, James Parkes, Cameron Pittman, Karl Krueger, Ryan Florance, Tyler McGinnis'
+        problemsToSolve: 'A Udacity és a Google közösen hozott létre egy kihívást, melyre az előjelentkezés után választottak ki 20.000 pályázót, akik az első három hónapban megmérettették magukat és a teljesítményűnk alapján a legjobb 2000 fő kapta meg a Google ösztöndíját. Lévén hogy sikeresen teljesítettem ezen feladatokat és bekerültem a legjobb 10%-ba, a Google állta a képzésem díját. \n A jól felépített, teljes mértékben angol nyelvű tananyag a HTML5 szemantikus elemek és CSS3 alapjai után a reszponzív dizájnt majd pedig a JavaScript alapjait tanította meg. Ezek után bővebben tanultam az A11y -ről (Accessibility) és megértettem miért fontos olyan oldalakat tervezni, melyek mindenki számára könnyen kezelhetőek. A következő állomás az ES6 elsajátítása volt. Megtanultam mire jó a .map() illetve a .filter(), valamint azt is, hogy mi is az az arrow function. Természetesen a fejlesztőeszközök illetve a tesztelés bemutatása sem maradt ki, melyej során megismertem a Gulp-ot valamint a Jasmine nevő tesztelő keretrendszert. A képzés utolsó részeként a React.js framework-öt ismertem meg közelről. A React-router-t közvetlenül a készítőitől (Tyler McGinnis, Ryan Florence) tanulhattam, de természetesen nem maradt ki az adatok komponensek közötti továbbításának (state, prop) valamint a komponensek struktúrálásának elsajátítása sem. A képzés utolsó projektjeként készítettem el a Chill nevű progresszív webappot React-tel, melyről bővebben a Chill projekt oldalán írok.',
+        teachers: 'Richard Kalehoff, Pete LePage, Peter Lubbers, Andrew Wong, Michael Wales, Julia Van Cleve, James Parkes, Cameron Pittman, Karl Krueger, Ryan Florence, Tyler McGinnis'
     },
     {
         id:2,
@@ -30,9 +30,9 @@ export const schools = [
         backdropBg: 'https://res.cloudinary.com/nahov91/image/upload/c_crop,e_blur:1724,f_auto,g_xy_center,h_500,q_auto:good,w_1659,x_0,y_371/v1537269697/webdesignsulibg.jpg',
         courseName: 'Web Designer',
         schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536312954/webdesignsuli.png',
-        shortDescription: 'Web alapú képzés, ahol a web design alapjait sajátítottam el. Logo tervezés, Adobe Photoshop, Adobe Illustrator.',
+        shortDescription: 'Online tanfolyam a web design alapjairól - Adobe Photoshop, Adobe Illustrator tudásom alapjait itt sajátítottam el, akárcsak a layoutok kialakítását vagy a logótervezést.',
         technologies: 'Adobe Photoshop, Adobe Illustrator, CSS, WordPress',
-        problemsToSolve: 'A képzés bevezető szakaszában tanultunk a színekről, betűtípusokról, melyeket a logotervezés követett. Mitől jó egy logo? Hogyan fogjunk neki a tervezésnek? Hogyan használjuk az Adobe Photoshopot és az Adobe Illustratort? Ezen témák elsajátítása után az oldalak felépítéséről a WordPressről és annak használatáról tanultunk. Zárásképp egy WordPress alapú weboldalt kellett beadnunk vizsgamunka gyanánt',
+        problemsToSolve: 'A tanfolyam célja, hogy olyan szakembereket képezzen, akik képesek egy weboldal dizájnját megtervezni, majd mindezt WordPress segítségével életrekelteni. A tanfolyam eredeti időtartama 6 hónap volt és megtanított az Adobe Photoshop és Adobe Illustrator használata, színelméletre, tipográfiára és arculattervezésre. Megtanultam mockupokat készíteni, logót és layoutot tervezni, majd a megszerzett grafikai tudást WordPress segítségével működő oldallá tenni. A képzés remek volt kiindulópontnak, valamint megerősített abban is, hogy a web az az irány amivel foglalkozni szeretnék. \n Vizsgamunkaként a saját WordPress honlapomat készítettem el. A tanfolyam elvégzéséről tanusítványt kaptam kiemelt ajánlói pecséttel.',
         teachers: 'Cziráki Barbara, Henn Bianka'
     },
     {
@@ -43,9 +43,9 @@ export const schools = [
         backdropBg:'https://res.cloudinary.com/nahov91/image/upload/c_crop,e_blur:1724,f_auto,g_xy_center,h_500,q_auto:good,w_1659,x_0,y_371/v1537269457/Miskolci_egyetem.jpg',
         courseName: 'Orvosi Laboratóriumi és Képalkotó Diagnosztikai Analitikus',
         schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536313059/miskolciegyetem.png',
-        shortDescription: 'A Miskolci Egyetem Egészségügyi karán a radiográfia részletit tanultam meg.',
+        shortDescription: 'A Miskolci Egyetem Egészségügyi karán Orvosi Laboratóriumi és Képalkotó Diagnosztikai Analitikus szakán szereztem diplomát.  A képzés során a radiográfia különböző területeit ismertük meg, és sajátítottuk el. ',
         technologies: '',
-        problemsToSolve: 'Felvételek készítése CT, MRI illetve RTG technológiákkal. Anatómiai és élettani tanulmányok',
+        problemsToSolve: 'Röntgen felvétel technika, kompjúter tomográfia, MR, sugárterápia, izotópos vizsgálatok - ezen és még számos témakör volt, melyet elsajátítottam és gyakorlatok során alkalmaztam. Szakdolgozatomat a gerinc daganatos megbetegedéseiből készítettem, melyhez a kutatási anyagomat a Borsod-Abaúj-Zemplén megyei Kórházban gyűjtöttem. Konzulensem Dr. Martos János volt.',
         teachers: 'Dr. Martos János, Dr. Lombay Béla, Dr. Fornet Béla, Prof. Dr. Harkányi Zoltán'
     }];
 
@@ -60,9 +60,9 @@ export const schools = [
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-23-56.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-20-56.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841591/screenshot-nahov91.github.io-2018.09.13-14-22-24.png'],
-            projectDescription: 'A Chill egy progresszív webapp, ami a környéken található nyugalmat árasztó helyeket listázza ki és jeleníti meg egy térképen hasznos többletinformációval.',
+            projectDescription: 'Chill egy progressive webapp, amely React.js -szel készült a Udacity Front End Web Developer képzés utolsó projektjeként. Az app olyan szolnoki helyeket jelenít meg a térképen, melyek nyugalmas kikapcsolódásra alkalmasak.',
             technologies: 'JavaScript, CSS3, CSS Grid, React.js, GitHub, Fetch, Google Maps API',
-            problemsToSolve: 'A projekt során teljesen nulláról kellett készíteni egy webappot, mely a térképet a Google Maps API-ból, az adatokat pedig egy másik API-ból nyeri ki. Az én választásom a FourSquare-re esett, lévén az alkalmazásaikat használva tudtam, hogy rengeteg adattal rendelkeznek. Kritérium volt továbbá egy logikus komponens struktúra felépítése, ahol a komponenseken keresztül áraló adatokat is menedzselni kell state illetve props segítségével. A state management során nem használtam Redux-ot vagy Context API-t.',
+            problemsToSolve: 'A feladat az volt, hogy készítsünk egy térkép alapú webapp -ot, melyen egy API segítségével kapcsolódó adatokat jelenítünk meg. Térkép szolgáltatásnak Google Maps-et, míg adatforrásnak a Foursquare API-t használtam.  A térkép megjelenítéséhez a react-googlemaps nevű npm csomagot használtam, melyen keresztül némiképp átláthatóbb volt az adatok menedzselése és a state-ek kezelése. Az adatok komponensek közti továbbításához nem használtam Redux-ot vagy React Context API-t, lévén a hagyományos “prop drilling” módszer megfelelőnek bizonyult. \n A helyszíneket és adataikat a Foursquare Places API-on keresztül kezeltem, így lehetőségem nyílt mind a venue search, mind pegig a venue data kezelésének megismerésére. A venue search segítségével történik a helyek indításkori kilistázása a helyzínek kategóriáinak megfelelően. Ezen helyek listáját lehet tovább szűkíteni az általam készített keresővel. A térképen lévő markerek vagy a lista elemeire kattintva a térképen további információ jelenik meg a hellyel kapcsolatban (legjobb fotó, kategória, kategória ikon, lokáció, kedvelések száma).\n \n A layout megtervezésénél ügyeltem arra, hogy mobli eszközön a lehető legjobb élményt nyújtsa az alkalmazás. Ezen eszközökön a keresőt és a hozzá tartozó listát nem oldalt egy hamburger menüben rejtettem el, hanem egy alulról bármikor felhúzható fiókként működő dizájnt kapott. A layout kialakításánál CSS Grid-et használtam.\n \n A feladat során az alkalmazással és az adatokbetöltésével előforduló hibákat is kezelnünk kellett, hogy a felhasználó tudja, hogy éppen milyen hiba miatt nem tölt be az alkalmazás. \n Ez a projekt kiváló volt arra, hogy megértsem az adaok komponensek közötti átvitelét, illetve, hogy még biztosabb legyek az API adatok fetch-csel való használatában.',
             links: ['https://github.com/Nahov91/FEND-P8-Chill','https://nahov91.github.io/']
         }, 
         {
@@ -72,9 +72,9 @@ export const schools = [
             projectType: 'Weblap',
             backdropBg: 'https://res.cloudinary.com/nahov91/image/upload/c_crop,e_blur:1724,f_auto,g_xy_center,h_500,q_auto:good,w_1659,x_0,y_371/v1537269128/rolunk_header.jpg',
             galleryImages: [],
-            projectDescription: 'A Techno-Víz Laboratórium kft. -nek szüksége volt egy modernebb weblapra, melyen könnyű eligazodni. A weblap korábban is WordPress alapú volt, így ezen nem változtattam.',
+            projectDescription: 'A projekt során a Techno-Víz Laboratórium kft. Weboldalának felújítása történik. Az oldal WordPress alapú volt korábban, melyen nem is szeretett volna változtatni az ügyfél.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
-            problemsToSolve: 'A weblapnak egyszerűen kezelhetőnek, modernnek, átláthatónak, de ugyanakkor funkciógazdagnak kellett lennie',
+            problemsToSolve: 'A korábbi honlap meglehetősen egyszerű volt, melyet nem is használt sokat a cég sem marketing sem ügyfélserzési céllal. Az új weblap már jóval több funkcióval fog bírni, teljesen megújul a design mely modern és átlátható lesz.  Mind a design, mind pedig a funkcionalitás kivitelezése az én feladatom. A weboldalt jelenleg is fejlesztem így az ügyféllel kötött megegyezésem alapján arról több információt illetve képeket nem közölhetek e pillanatban.',
             links: []
         }, 
         {
@@ -89,9 +89,9 @@ export const schools = [
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png'
             ],
-            projectDescription: 'Banki szolgáktatásokat közvetítő cég digitális elindulásának lehetővé tétele az induláshoz nélkülözheteten digitális termékek és eszközök létrehozásával.',
+            projectDescription: 'A projekt során a cég digitális profiljának a felépítése volt a cél, ennek megfelelően a logó, a weblap és az arculat elkészítése is az én feladatom volt. A digitális termékeken kívül még egy névjegykártyát is terveztem az ügyfélnek.',
             technologies: 'WordPress, CSS, Adobe XD, Adobe Photoshop, Adobe Illustrator',
-            problemsToSolve: 'Egy letisztult, átlátható és könnyen kezelhető reszponzív weboldal létrehozása volt a cél. Fontos szempont volt, hogy a könnyű kezelhetőség ne csak a felhasználók, de a megrendelő számára is elérhető legyen amennyiben az oldalon bármiféle módosítást szeretne végezni. A könnyen kezelhető backend miatt esett a választásunk a WordPress-re. Az oldalon található kereső a legfontosabb banki fogalmak között keres, míg a kapcsolat űrlapon az érdeklődő pontosan képes megadni azt, hogy mivel kapcsolatban érdeklődne. Ez nem csak az érdeklődőknek, de a cégnek is megkönnyíti a mindennapjait.',
+            problemsToSolve: 'A HitelGuru Hungary kft. egy banki szolgáltatásokat közvetítő budapesti cég, mely 2017-ben alakult. Az induláshoz mindenképp szükségük volt egy weboldalra, melyet szolgáltatásuk bemutatására valamint a leendő ügyfeleikkel történő kapcsolatfelvételre kívántak használni. A várt felhasználóibázist többnyire fiatal felnőttek alkották, ez ihlette a cég arculatát. A szimmetrikus logó kiegyensúlyozottságot, míg a színek megbízhatóságot sugallanak. \n\n A weboldal tervezésénél felmerülő funkciók között nem csak az értékesítés, a marketing és a kapcsolatfelvétel, hanem egy a bankvilági fogalmakkal kapcsolatos tudástár is szerepelt. Ez a tudástár egy kereső funkciót is kapott. \n\n Az oldal alapját WordPress képezi, melynek fő oka az volt, hogy a vállalatnál dolgozók is tudjanak módosítani a tartalmán, amennyiben egy kisebb változtatásra van szükség a szövegben. Az oldalhoz az eredeti megalkotása óta több új funkciót is elkészítettem.',
             links: ['https://hitelguru.com/']
         }];
 

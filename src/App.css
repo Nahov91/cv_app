@@ -68,6 +68,10 @@ li {
     "details";
 }
 
+p {
+  white-space: pre-wrap;
+}
+
 .categoryHeading {
   color: #555;
   padding-top: 2rem;
