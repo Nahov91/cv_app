@@ -259,7 +259,7 @@ p {
   transition: all .2s ease-out;
 }
 
-.schoolImage:hover {
+.schoolImage:hover, .projectImage:hover {
   transform: scale(1.05);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.14);
 }
@@ -305,6 +305,7 @@ p {
   border: 2px solid #ffffff;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
   margin-left: -65px;
+  transition: all .2s ease-out;
 }
 
 /******** TECHNOLOGIES *********/
