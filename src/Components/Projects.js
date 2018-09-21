@@ -19,7 +19,7 @@ export default class Projects extends Component {
                 >
                   <img
                     src={project.projectImage}
-                    alt=""
+                    alt={project.projectName}
                     className="projectImage"
                   />
                 </Overdrive>

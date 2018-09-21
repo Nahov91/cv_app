@@ -16,7 +16,7 @@ export default class Schools extends Component {
                   <img
                     className="schoolImage"
                     src={school.schoolImage}
-                    alt=""
+                    alt={school.schoolName}
                   />
                 </Overdrive>
               </Link>
