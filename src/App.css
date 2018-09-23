@@ -443,3 +443,28 @@ img.galleryImage:nth-child(2), img.galleryImage:nth-child(1) {
   grid-column: -1 / span 2;
 }
 
+/********** FOOTER  ***********/
+#footer {
+background: #001122fb;
+padding: 20px;
+margin-top: 30px;
+}
+
+#builtwith {
+  color: #aaaaaa;
+}
+
+#footer a {
+  color: #2196f3;
+}
+
+#footer a:hover {
+  color: #41b6f3;
+}
+
+#languages .categoryHeading {
+  text-align: start;
+  margin-left: 5%;
+  margin-top: 5px;
+  padding: 0 15px 30px 75px;
+}

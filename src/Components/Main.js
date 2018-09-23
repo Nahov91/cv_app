@@ -5,6 +5,7 @@ import Backdrop from "../Components/Backdrop";
 import Schools from "../Components/Schools";
 import Projects from "../Components/Projects";
 import Technologies from "../Components/Technologies";
+import Languages from "../Components/Languages"
 
 class Main extends Component {
   render() {
@@ -15,6 +16,7 @@ class Main extends Component {
           <Schools />
           <Projects />
           <Technologies />
+          <Languages />
         </main>
       </div>
     );
