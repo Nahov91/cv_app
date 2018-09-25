@@ -72,7 +72,7 @@ export default class ProjectDetails extends Component {
             </div>
           </section>
           <div className="otherInfo">
-            <h3 className="categoryHeading">Használt technológák</h3>
+            <h3 className="categoryHeading">Használt technológiák</h3>
             <p className="detailTechnologies"> {project.technologies} </p>
           </div>
         </div>
