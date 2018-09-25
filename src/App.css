@@ -3,6 +3,7 @@
 body {
   background: #fdfdfd;
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
 }
 
 .active {
@@ -48,10 +49,10 @@ li {
 #content {
   grid-area: main;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
   overflow: auto;
   resize: horizontal;
-  max-width: 1600px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -59,13 +60,15 @@ li {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto 1fr auto;
   grid-template-areas:
     "header"
     "backdrop"
     "profile"
     "main"
-    "details";
+    "details"
+    "footer";
+    min-height: 100vh;
 }
 
 p {
@@ -374,12 +377,12 @@ li .technologyItem {
 .detailsWrapper {
   display: grid;
   grid-area: detailsWrapper;
-  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
   margin: 0 6%;
   max-width: 1600px;
   overflow: auto;
   resize: horizontal;
-  max-width: 1600px;
+  max-width: 1400px;
   grid-column-gap: 50px; 
 }
 
@@ -448,6 +451,9 @@ img.galleryImage:nth-child(2), img.galleryImage:nth-child(1) {
 background: #001122fb;
 padding: 20px;
 margin-top: 30px;
+bottom: 0px;
+align-self: end;
+grid-area: footer;
 }
 
 #builtwith {
