@@ -7,7 +7,7 @@ export default class Schools extends Component {
   render() {
     return (
       <div id="schoolComponent">
-        <h2 className="categoryHeading">Iskolák</h2>
+        <h2 className="categoryHeading">Tanulmányok</h2>
         <ul>
           {Data.schools.map(school => (
             <li className="schoolItem" key={school.schoolName}>
