@@ -16,7 +16,7 @@ export const schools = [
         courseDuration: '2017-2018',
         backdropBg: 'https://res.cloudinary.com/nahov91/image/upload/c_crop,e_blur:1724,f_auto,g_xy_center,h_500,q_auto:good,w_1659,x_0,y_371/v1537269904/udacitybg.jpg',
         courseName: 'Front-End Web Developer',
-        schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536311149/udacity.png',
+        schoolImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536311149/udacity.png',
         shortDescription: 'A Google és a Udacity közös Online Front-End Web Developer bootcamp-je mely gyakorlatban is használt példákra épül. A HTML -től egészen a React.js -ig nyújtott komplett tananyagot. A képzés első három hónapos kihívása után a Google-től kapott ösztöndíjjal végeztem el a teljes képzést megszerezve ezzel a Nanodegree -t.',
         technologies: 'HTML 5, JavaScript ES6, CSS 3, React.js, GitHub, CSS Grid, API Fetch',
         problemsToSolve: 'A Udacity és a Google közösen hozott létre egy kihívást, melyre az előjelentkezés után választottak ki 20.000 pályázót, akik az első három hónapban megmérettették magukat és a teljesítményünk alapján a legjobb 2000 fő kapta meg a Google ösztöndíját. Lévén, hogy sikeresen teljesítettem ezen feladatokat és bekerültem a legjobb 10%-ba, a Google állta a képzésem díját. \n A jól felépített, teljes mértékben angol nyelvű tananyag a HTML5 szemantikus elemek és CSS3 alapjai után a reszponzív dizájnt majd pedig a JavaScript alapjait tanította meg. Ezek után bővebben tanultam az A11y -ről (Accessibility) és megértettem miért fontos olyan oldalakat tervezni, melyek mindenki számára könnyen kezelhetőek. A következő állomás az ES6 elsajátítása volt. Megtanultam mire jó a .map() illetve a .filter(), valamint azt is, hogy mi is az az arrow function. Természetesen a fejlesztőeszközök illetve a tesztelés bemutatása sem maradt ki, melyek során megismertem a Gulp-ot valamint a Jasmine nevű tesztelő keretrendszert. A képzés utolsó részeként a React.js framework-öt ismertem meg közelről. A React-router-t közvetlenül a készítőitől (Tyler McGinnis, Ryan Florence) tanulhattam, de természetesen nem maradt ki az adatok komponensek közötti továbbításának (state, prop) valamint a komponensek strukturálásának elsajátítása sem. A képzés utolsó projektjeként készítettem el a Chill nevű progresszív webappot React-tel, melyről bővebben a Chill projekt oldalán írok.',
@@ -29,7 +29,7 @@ export const schools = [
         courseDuration: '2017',
         backdropBg: 'https://res.cloudinary.com/nahov91/image/upload/c_crop,e_blur:1724,f_auto,g_xy_center,h_500,q_auto:good,w_1659,x_0,y_371/v1537269697/webdesignsulibg.jpg',
         courseName: 'Web Designer',
-        schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536312954/webdesignsuli.png',
+        schoolImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536312954/webdesignsuli.png',
         shortDescription: 'Online tanfolyam a web design alapjairól - Adobe Photoshop, Adobe Illustrator tudásom alapjait itt sajátítottam el, akárcsak a layoutok kialakítását vagy a logótervezést.',
         technologies: 'Adobe Photoshop, Adobe Illustrator, CSS, WordPress',
         problemsToSolve: 'A tanfolyam célja, hogy olyan szakembereket képezzen, akik képesek egy weboldal dizájnját megtervezni, majd mindezt WordPress segítségével életre kelteni. A tanfolyam eredeti időtartama 6 hónap volt és megtanított az Adobe Photoshop és Adobe Illustrator használata, színelméletre, tipográfiára és arculattervezésre. Megtanultam mockupokat készíteni, logót és layoutot tervezni, majd a megszerzett grafikai tudást WordPress segítségével működő oldallá tenni. A képzés remek volt kiindulópontnak, valamint megerősített abban is, hogy a web az az irány, amivel foglalkozni szeretnék. \n Vizsgamunkaként a saját WordPress honlapomat készítettem el. A tanfolyam elvégzéséről tanúsítványt kaptam kiemelt ajánlói pecséttel.',
@@ -42,7 +42,7 @@ export const schools = [
         courseDuration: '2010-2014',
         backdropBg:'https://res.cloudinary.com/nahov91/image/upload/c_crop,e_blur:1724,f_auto,g_xy_center,h_500,q_auto:good,w_1659,x_0,y_371/v1537269457/Miskolci_egyetem.jpg',
         courseName: 'Orvosi Laboratóriumi és Képalkotó Diagnosztikai Analitikus',
-        schoolImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536313059/miskolciegyetem.png',
+        schoolImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536313059/miskolciegyetem.png',
         shortDescription: 'A Miskolci Egyetem Egészségügyi karán Orvosi Laboratóriumi és Képalkotó Diagnosztikai Analitikus szakán szereztem diplomát.  A képzés során a radiográfia különböző területeit ismertük meg, és sajátítottuk el. ',
         technologies: '',
         problemsToSolve: 'Röntgen felvétel technika, komputer tomográfia, MR, sugárterápia, izotópos vizsgálatok - ezen és még számos témakör volt, melyet elsajátítottam és gyakorlatok során alkalmaztam. Szakdolgozatomat a gerinc daganatos megbetegedéseiből készítettem, melyhez a kutatási anyagomat a Borsod-Abaúj-Zemplén megyei Kórházban gyűjtöttem. Konzulensem Dr. Martos János volt.',
@@ -125,7 +125,7 @@ export const technologies = [
     }, 
     {
         name: 'Adobe XD',
-        technologyImage: 'http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536333403/xd.png'
+        technologyImage: 'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536333403/xd.png'
     }, 
     {
         name: 'Adobe Photoshop',
