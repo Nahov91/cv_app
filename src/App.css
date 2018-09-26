@@ -315,7 +315,7 @@ p {
 #technologyComponent {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto;
   /*   grid-area: technologyComponent; */
   margin-top: 3rem;
   grid-template-areas:
@@ -333,7 +333,11 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "technologyItem technologyItem technologyItem";
-  gap: 5px;
+  grid-gap: 15px;
+  margin: 0 auto;
+  padding-left: 0px;
+  align-items: start;
+  align-content: start;
 }
 
 li .technologyItem {
@@ -344,6 +348,7 @@ li .technologyItem {
     "technologyImage"
     "technologyName";
   list-style-type: none;
+
 }
 
 .technologyItem .name {
@@ -354,8 +359,8 @@ li .technologyItem {
 
 .technologyImage {
   grid-area: technologyImage;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
   border: 2px solid #fff;
   border-radius: 50%;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.18);
@@ -479,4 +484,10 @@ grid-area: footer;
   margin-left: 5%;
   margin-top: 5px;
   padding: 0 15px 30px 75px;
+}
+
+#languages p {
+  text-align: left;
+  margin-left: 5%;
+  padding: 0 15px 10px 75px;
 }
