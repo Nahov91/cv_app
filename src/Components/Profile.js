@@ -23,16 +23,16 @@ export default class Profile extends Component {
       <div>
         <Backdrop background={this.state.myProfile}/>
         <div id="card">
-          <img id="profileIMG" src="http://res.cloudinary.com/nahov91/image/upload/f_auto,fl_any_format,q_auto:best/v1536314979/profile.jpg" alt="profilkép" />
+          <img id="profileIMG" src="https://res.cloudinary.com/nahov91/image/upload/f_auto,fl_any_format,q_auto:best/v1536314979/profile.jpg" alt="profilkép" />
           <div id="profileName">
           <h1> {Data.myProfile.name} </h1>
           </div>
           <div id="mail">
-            <img id="mailIcon"  src="http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536314978/mailicon.png" alt="email" />
+            <img id="mailIcon"  src="https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536314978/mailicon.png" alt="email" />
             <p id="mail-data">{Data.myProfile.email}</p>
           </div>
           <div id="location">
-            <img id="locatioIcon" src="http://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536314978/locationicon.png" alt="location pin" />
+            <img id="locatioIcon" src="https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536314978/locationicon.png" alt="location pin" />
             <p id="locationData" >{Data.myProfile.location}</p>
           </div>
           <div id="tags">
