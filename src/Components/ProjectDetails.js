@@ -55,7 +55,7 @@ export default class ProjectDetails extends Component {
                 <h3 className="categoryHeading">Linkek</h3>
                 <ul>
                   {project.links.map(link => (
-                    <li>
+                    <li key={link} >
                       <a href={link} className="projectlink">
                         {link}
                       </a>
@@ -73,7 +73,7 @@ export default class ProjectDetails extends Component {
                 <h3 className="categoryHeading">Képek</h3>
                 <div className="gallery">
                   {project.galleryImages.map(galleryImage => (
-                    <img
+                    <img key={galleryImage}
                       src={galleryImage}
                       alt={`${project.projectName} képernyőkép`}
                       className="galleryImage"

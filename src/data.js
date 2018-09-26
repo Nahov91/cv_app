@@ -86,7 +86,6 @@ export const schools = [
             galleryImages: ['https://res.cloudinary.com/nahov91/image/upload/v1536841621/screenshot-hitelguru.com-2018.09.13-14-14-33.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-17-05.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841622/screenshot-hitelguru.com-2018.09.13-14-09-53.png',
-            'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png',
             'https://res.cloudinary.com/nahov91/image/upload/f_auto,q_auto/v1536841621/screenshot-hitelguru.com-2018.09.13-14-12-51.png'
             ],
             projectDescription: 'A projekt során a cég digitális profiljának a felépítése volt a cél, ennek megfelelően a logó, a weblap és az arculat elkészítése is az én feladatom volt. A digitális termékeken kívül még egy névjegykártyát is terveztem az ügyfélnek.',
